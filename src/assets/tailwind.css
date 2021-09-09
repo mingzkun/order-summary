@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body{
+    @apply min-w-0 sm:min-w-full xl:min-w-0 min-h-0 bg-pale-blue
+}
+
+#app{
+    @apply flex flex-col items-center justify-center h-screen mx-6 xl:mx-auto 
+}
+
+a{
+    @apply underline xl:hover:text-bright-blue
+}
+
+button{
+    @apply p-4 font-bold text-base
+}
+
+.primary-btn{
+    @apply  bg-bright-blue text-white rounded-lg shadow-2xl xl:hover:bg-opacity-70 
+}
+
+.secondary-btn{
+    @apply text-desaturated-blue xl:hover:text-dark-blue   
+}
+
+
+.underlined-btn{
+    @apply underline text-bright-blue xl:hover:text-opacity-70
+}
